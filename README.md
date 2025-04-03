@@ -1,51 +1,50 @@
-#Lista de Tarefas
+# 📋 Lista de Tarefas
 
-Um aplicativo simples de Lista de Tarefas desenvolvido com HTML, CSS e JavaScript.
+Um aplicativo simples de Lista de Tarefas desenvolvido com **HTML, CSS e JavaScript**.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-Adicionar tarefas ✅
+- Adicionar tarefas ✅
+- Remover tarefas ❌
+- Marcar tarefas como concluídas ✔️
+- Salvar tarefas no armazenamento local 🔄
 
-Remover tarefas ❌
-
-Marcar tarefas como concluídas ✔️
-
-Salvar tarefas no armazenamento local 🔄
-
-🖼️ Preview
+## 🖼️ Preview
 
 (Sugestão: Adicione uma captura de tela do projeto aqui)
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-HTML → Estrutura da página
+- **HTML** → Estrutura da página
+- **CSS** → Estilização do layout
+- **JavaScript** → Lógica da aplicação
 
-CSS → Estilização do layout
+## 📂 Estrutura do Projeto
 
-JavaScript → Lógica da aplicação
-
-📂 Estrutura do Projeto
-
+```
 ListaDeTarefas/
 │── index.html      # Página principal
 │── style.css       # Estilos do projeto
 │── controle.js     # Código JavaScript
+```
 
-🔧 Como Executar
+## 🔧 Como Executar
 
-Baixe ou clone este repositório:
+1. Baixe ou clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/ListaDeTarefas.git
+   ```
+2. Abra o arquivo `index.html` em seu navegador.
 
-git clone https://github.com/seu-usuario/ListaDeTarefas.git
+## 📌 Melhorias Futuras
 
-Abra o arquivo index.html em seu navegador.
+-
 
-📌 Melhorias Futuras
+## 📝 Autor
 
+Desenvolvido por **Seu Nome**. Conecte-se comigo no [LinkedIn](#).
 
-
-📝 Autor
-
-Desenvolvido por Seu Nome. Conecte-se comigo no LinkedIn.
+---
 
 📢 Se gostou, deixe uma ⭐ no repositório!
 
