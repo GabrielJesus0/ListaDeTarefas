@@ -11,7 +11,8 @@ Um aplicativo simples de Lista de Tarefas desenvolvido com **HTML, CSS e JavaScr
 
 ## 🖼️ Preview
 
-![image](https://github.com/user-attachments/assets/87787506-bc4b-4e9b-8f0c-92639aa828d6)
+![image](https://github.com/user-attachments/assets/411257e1-c882-4fe1-a138-fd7bacb595d9)
+
 
 
 ## 🛠️ Tecnologias Utilizadas
