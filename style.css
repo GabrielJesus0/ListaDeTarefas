@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: normal 15pt Helvetica;
+    background-color: #eeeeee;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+
+}
+header {
+    display: flex;
+    flex-flow: flex wrap;
+   
+    width:80%;
+    margin:auto auto;
+    
+}
+
+input#txtTarefa {
+    height: 100px;
+    font-size: 1.5rem;
+    width:80%;
+    padding-left: 60px;
+}
+
+input#add {
+    width:20%;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border:none;
+    height: 100px;
+    border-radius: 0 15px 15px 0;
+    font-size: 1rem;
+}
+
+main#areaLista {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+    width:80%;
+    height: 60dvh;
+    margin: 20px auto;
+    overflow-y: auto;
+}
+
+
+div.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.5rem;
+    width:100%;
+    border-radius: 8px;
+    background-color:#eeeeee;
+    padding: 20px 20px 20px 40px ;
+    margin-bottom: 20px;
+    border: rgba(0, 128, 0, 0.37) solid 2px;
+
+    transition: 150ms;
+}
+
+div#itemIcone {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+div#itemBotao i{
+    margin-left: 10px;
+    cursor: pointer;
+}
