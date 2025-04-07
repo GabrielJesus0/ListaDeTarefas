@@ -92,27 +92,36 @@ function deletarTarefa(elemento){
 function concluirTarefa(elemento){
     let item = document.querySelector(`#${elemento.parentElement.id}`);
     let texto = item.querySelector('#itemNome');
-    
+    let edit = item.querySelector('#itemBotao');
     let check = elemento.innerHTML == '<i class="mdi mdi-check-circle"></i>';
     
-    if (!check){ // Observa o contexto do click
+    if (!check){ // Se estiver como não concluído
         area.appendChild(item);
 
         item.style.color = '#fff';
         item.style.backgroundColor = 'green';
         elemento.innerHTML = '<i class="mdi mdi-check-circle"></i>';
-
-        texto.innerHTML = `<s>${texto.innerText}</s>`;
-        salvarTarefas();
         
-    } else {
+        // DELETAR
+        
+        edit.innerHTML = `<i class="mdi mdi-delete" onclick='deletarTarefa(this)'></i>`
+
+        
+        texto.innerHTML = `<s>${texto.innerText}</s>`;
+        
+        
+    } else if (check){ // Se estiver concluído 
         area.insertAdjacentElement('afterbegin',item);
 
         item.style.color = '#000';
         item.style.backgroundColor = '#eeeeee';
         elemento.innerHTML = '<i class="mdi mdi-checkbox-blank-circle-outline"></i>';
+        
+        // EDITAR E DELETAR
+        edit.innerHTML = `<i class="mdi mdi-pencil" onclick='editarTarefa(this)'></i><i class="mdi mdi-delete" onclick='deletarTarefa(this)'></i>`
+        
         texto.innerHTML = `${texto.innerText}`; 
-        salvarTarefas();
+        
     };
 
     
@@ -122,12 +131,6 @@ function editarTarefa(elemento){
     let item = elemento.closest('.item');
     let texto = item.querySelector('#itemNome');
     let safe = texto.innerText; //Guardar texto original
-    var c = 1 ;// Mudança de edit
-
-    // Verificar se está concluído
-    let check = item.querySelector("#itemIcone i")
-
-    if (check.className("mdi mdi-check-circle")){
 
         // Input de Edição
         var edit = document.createElement('input');
@@ -182,5 +185,5 @@ function editarTarefa(elemento){
                 texto.innerText = safe;
             
         })
-  }  
+
 };
