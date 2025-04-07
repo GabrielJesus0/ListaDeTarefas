@@ -11,7 +11,9 @@ Um aplicativo simples de Lista de Tarefas desenvolvido com **HTML, CSS e JavaScr
 
 ## 🖼️ Preview
 
-(Sugestão: Adicione uma captura de tela do projeto aqui)
+![image](https://github.com/user-attachments/assets/411257e1-c882-4fe1-a138-fd7bacb595d9)
+
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -42,7 +44,7 @@ ListaDeTarefas/
 
 ## 📝 Autor
 
-Desenvolvido por **Seu Nome**. Conecte-se comigo no [LinkedIn](#).
+Desenvolvido por **Gabriel de Jesus**. Conecte-se comigo no [LinkedIn](#).
 
 ---
 
